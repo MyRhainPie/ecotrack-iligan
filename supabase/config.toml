@@ -1,0 +1,22 @@
+project_id = "byukovhoswpwkgvezpkk"
+
+[functions.paymongo-checkout]
+verify_jwt = false
+
+[functions.paymongo-webhook]
+verify_jwt = false
+
+[functions.ticket]
+verify_jwt = false
+
+[functions.scan-ticket]
+verify_jwt = true
+
+[functions.invite-staff]
+verify_jwt = true
+
+[functions.accept-staff-invitation]
+verify_jwt = true
+
+[functions.process-refund]
+verify_jwt = true
